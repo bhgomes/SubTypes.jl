@@ -17,6 +17,8 @@ export SubType, check_predicate, predicate, flag, Constrained, ConstrainedSymbol
 """
 struct SubType{T, P, Flag}
     value::T
+    SubType{T}(x::T) where {T} = new{T, Any, nothing}(x)
+    SubType{T, Any}(x::T) where {T} = new{T, Any, nothing}(x)
     function SubType{T, P, Flag}(x::T) where {T, P, Flag}
         check_predicate(P, Val(Flag), x)
         return new{T, P, Flag}(x)
