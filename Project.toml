@@ -2,3 +2,6 @@ name = "SubTypes"
 uuid = "673f7e10-fa62-11e9-1b68-4159967c0379"
 authors = ["bhgomes <bhgomes.github@gmail.com>"]
 version = "0.1.0"
+
+[compat]
+julia = "1"
