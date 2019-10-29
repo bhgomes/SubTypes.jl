@@ -45,7 +45,7 @@ and `ConstrainedSymbol` is set inclusion for `Symbol` types. Inspiration for thi
 
 ## Helper Functions
 
-This module also comes with these helper functions:
+This module also comes with these helper functions defined for terms and types:
 
 ```julia
 eltype(::SubType{T}) = T
