@@ -96,4 +96,4 @@ support(::Type{Constrained{T, S}}) where {T, S} = S
 """
 support(constrained::Constrained) = support(typeof(constrained))
 
-end  # end SubTypes
+end  # module SubTypes
