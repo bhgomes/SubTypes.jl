@@ -14,24 +14,22 @@ _Custom Subtyping in Julia_
 
 To create a custom subtype define the following data
 
-```julia
-SubType{T, P, Flag}
-#=
+```
+SubType{T, P, Ctx}
         ^  ^  ^
-        1  2  3
-1 => Underlying Type
-2 => Predicate Data
-3 => Type Flag
-=#
+        |  |  |
+        |  |  L ______ Type Context
+        |  L _________ Predicate Data
+        L ____________ Underlying Type
 ```
 
 and a predicate processing function
 
 ```julia
-check_predicate(P, Val(Flag), x::T)
+check_predicate(P, Val(Ctx), x::T)
 ```
 
-which checks if `x::T` should be of type `SubType{T, P, Flag}`. The flag is a way to mark the subtypes for overloading.
+which checks if `x::T` should be of type `SubType{T, P, Ctx}`. The context `Ctx` is the way to mark the subtypes for overloading.
 
 ## Predefined Custom Subtypes
 
@@ -50,7 +48,7 @@ This module also comes with these helper functions defined for terms and types:
 ```julia
 eltype(::SubType{T}) = T
 predicate(::SubType{T, P}) = P
-flag(::SubType{T, P, Flag}) = Flag
+context(::SubType{T, P, Ctx}) = Ctx
 support(::Constrained{T, S}) = S
 ```
 
