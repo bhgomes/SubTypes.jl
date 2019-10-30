@@ -39,7 +39,9 @@ The custom subtypes `Constrained` and `ConstrainedSymbol` are predefined in the 
 x::Constrained{T, S}  <=>  x.value::T in S
 ```
 
-and `ConstrainedSymbol` is set inclusion for `Symbol` types. Inspiration for this type comes from [this post](https://discourse.julialang.org/t/creating-custom-type-of-enumerations-of-symbols/18635/7) by Mohamed Tarek [@mohamed82008](https://github.com/mohamed82008).
+and `ConstrainedSymbol` is set inclusion for `Symbol` types.
+
+Inspiration for this type comes from [this post](https://discourse.julialang.org/t/creating-custom-type-of-enumerations-of-symbols/18635/7) by Mohamed Tarek [@mohamed82008](https://github.com/mohamed82008).
 
 ## Helper Functions
 
