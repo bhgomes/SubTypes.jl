@@ -5,6 +5,9 @@
 [![Stable Docs](https://img.shields.io/badge/docs-stable-blue.svg)](https://bhgomes.github.io/SubTypes.jl/stable)
 [![Latest Docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://bhgomes.github.io/SubTypes.jl/latest)
 [![Travis Build Status](https://travis-ci.com/bhgomes/SubTypes.jl.svg?branch=master)](https://travis-ci.com/bhgomes/SubTypes.jl)
+[![Build status](https://ci.appveyor.com/api/projects/status/9q43kym8re2rw92f?svg=true)](https://ci.appveyor.com/project/bhgomes/subtypes-jl)
+[![Formatting](https://img.shields.io/badge/format-tab%204%20margin%2096-888)](https://github.com/domluna/JuliaFormatter.jl)
+[![GitHub Repo](https://img.shields.io/badge/repo-GitHub-black)](https://github.com/bhgomes/SubTypes.jl)
 
 _Custom Subtyping in Julia_
 
@@ -59,7 +62,7 @@ support(::Constrained{T, S}) = S
 To install, run the following in a Julia session:
 
 ```julia
-]add SubTypes
+]add https://github.com/bhgomes/SubTypes.jl
 ```
 
 ---
