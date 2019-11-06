@@ -13,6 +13,14 @@ _Custom Subtyping in Julia_
 
 </div>
 
+## Installation
+
+To install, run the following in a Julia session:
+
+```julia
+]add SubTypes
+```
+
 ## Custom Subtype
 
 To create a custom subtype define the following data
@@ -36,13 +44,17 @@ which checks if `x::T` should be of type `SubType{T, P, Ctx}`. The context `Ctx`
 
 ## Predefined Custom Subtypes
 
-The custom subtypes `Constrained` and `ConstrainedSymbol` are predefined in the module and they emulate set inclusion subtyping, i.e.
+The custom subtypes `Constrained` and `ConstrainedSymbol` are predefined in the `SubType` module. They emulate set inclusion subtyping, i.e.
 
 ```julia
 x::Constrained{T, S}  <=>  x.value::T in S
 ```
 
-and `ConstrainedSymbol` is set inclusion for `Symbol` types.
+The `ConstrainedSymbol` type emulates set inclusion for `Symbol` types. The `Constrained` type is defined as follows:
+
+```julia
+const Constrained{T,S} = SubType{T,S,:Constrained}
+```
 
 Inspiration for this type comes from [this post](https://discourse.julialang.org/t/creating-custom-type-of-enumerations-of-symbols/18635/7) by Mohamed Tarek [@mohamed82008](https://github.com/mohamed82008).
 
@@ -50,20 +62,12 @@ Inspiration for this type comes from [this post](https://discourse.julialang.org
 
 This module also comes with these helper functions defined for terms and types:
 
-```julia
-eltype(::SubType{T}) = T
-predicate(::SubType{T, P}) = P
-context(::SubType{T, P, Ctx}) = Ctx
-support(::Constrained{T, S}) = S
-```
-
-## Installation
-
-To install, run the following in a Julia session:
-
-```julia
-]add https://github.com/bhgomes/SubTypes.jl
-```
+| Helper Function | Component | Description |
+|-----------------|-----------|-------------|
+| `eltype` | `SubType{T} => T` | The underlying type where the subtype terms are drawn from. |
+| `predicate` | `SubType{T,P} => P` | The predicate data which determines the subtype terms. |
+| `context` | `SubType{T,P,Ctx} => Ctx` | The implementation label for the `check_predicate` function. |
+| `support` | `Constrained{T,S} => S` | The underlying set where the constrained variables are constrained to. |
 
 ---
 <div align="center">
