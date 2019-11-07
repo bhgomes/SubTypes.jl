@@ -7,8 +7,6 @@
 [![Travis Build Status](https://travis-ci.com/bhgomes/SubTypes.jl.svg?branch=master)](https://travis-ci.com/bhgomes/SubTypes.jl)
 [![Build status](https://ci.appveyor.com/api/projects/status/9q43kym8re2rw92f?svg=true)](https://ci.appveyor.com/project/bhgomes/subtypes-jl)
 [![Formatting](https://img.shields.io/badge/format-tab%204%20margin%2096-888)](https://github.com/domluna/JuliaFormatter.jl)
-[![GitHub Repo](https://img.shields.io/badge/repo-GitHub-black)](https://github.com/bhgomes/SubTypes.jl)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3525301.svg)](https://doi.org/10.5281/zenodo.3525301)
 
 _Custom Subtyping in Julia_
 
@@ -72,6 +70,9 @@ This module also comes with these helper functions defined for terms and types:
 
 ---
 <div align="center">
+        
+[![GitHub Repo](https://img.shields.io/badge/repo-GitHub-black)](https://github.com/bhgomes/SubTypes.jl)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3525301.svg)](https://doi.org/10.5281/zenodo.3525301)
 
 #### [(UN)LICENSE](UNLICENSE)
 Knowledge is Freedom.
