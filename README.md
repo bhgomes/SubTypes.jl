@@ -2,11 +2,12 @@
 
 # SubTypes.jl
 
-[![Stable Docs](https://img.shields.io/badge/docs-stable-blue.svg)](https://bhgomes.github.io/SubTypes.jl/stable)
-[![Latest Docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://bhgomes.github.io/SubTypes.jl/latest)
-[![Travis Build Status](https://travis-ci.com/bhgomes/SubTypes.jl.svg?branch=master)](https://travis-ci.com/bhgomes/SubTypes.jl)
-[![Build status](https://ci.appveyor.com/api/projects/status/9q43kym8re2rw92f?svg=true)](https://ci.appveyor.com/project/bhgomes/subtypes-jl)
-[![Formatting](https://img.shields.io/badge/format-tab%204%20margin%2096-888)](https://github.com/domluna/JuliaFormatter.jl)
+[![Stable Docs](https://img.shields.io/badge/docs-stable-blue.svg?style=flat-square)](https://bhgomes.github.io/SubTypes.jl/stable)
+[![Latest Docs](https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square)](https://bhgomes.github.io/SubTypes.jl/latest)
+[![Travis Build Status](https://img.shields.io/travis/bhgomes/SubTypes.jl.svg?style=flat-square)](https://travis-ci.com/bhgomes/SubTypes.jl)
+[![Build status](https://img.shields.io/appveyor/ci/bhgomes/subtypes-jl?style=flat-square)](https://ci.appveyor.com/project/bhgomes/subtypes-jl)
+[![Coveralls github](https://img.shields.io/coveralls/github/bhgomes/SubTypes.jl?style=flat-square)](https://coveralls.io/github/bhgomes/SubTypes.jl})
+[![Formatting](https://img.shields.io/badge/format-tab%204%20margin%2096-888?style=flat-square)](https://github.com/domluna/JuliaFormatter.jl)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3525301.svg)](https://doi.org/10.5281/zenodo.3525301)
 
@@ -75,6 +76,6 @@ This module also comes with these helper functions defined for terms and types:
 
 [![Author](https://img.shields.io/badge/Author-bhgomes-blue?style=for-the-badge)](https://github.com/bhgomes)
 [![License](https://img.shields.io/badge/(UN)-LICENSE-lightgray?style=for-the-badge)](UNLICENSE)
-[![GitHub Repo](https://img.shields.io/badge/repo-GitHub-black?style=for-the-badge)](https://github.com/bhgomes/AbstractRationals.jl)
+[![GitHub Repo](https://img.shields.io/badge/repo-GitHub-black?style=for-the-badge)](https://github.com/bhgomes/SubTypes.jl)
 
 </div>
