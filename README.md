@@ -74,8 +74,8 @@ This module also comes with these helper functions defined for terms and types:
 ---
 <div align="center">
 
-[![Author](https://img.shields.io/badge/Author-bhgomes-blue?style=for-the-badge)](https://github.com/bhgomes)
-[![License](https://img.shields.io/badge/(UN)-LICENSE-lightgray?style=for-the-badge)](UNLICENSE)
-[![GitHub Repo](https://img.shields.io/badge/repo-GitHub-black?style=for-the-badge)](https://github.com/bhgomes/SubTypes.jl)
+[![Author](https://img.shields.io/badge/-bhgomes-blue?style=for-the-badge)](https://github.com/bhgomes)
+[![License](https://img.shields.io/badge/-UNLICENSE-lightgray?style=for-the-badge)](UNLICENSE)
+[![GitHub Repo](https://img.shields.io/badge/-GitHub-black?style=for-the-badge)](https://github.com/bhgomes/SubTypes.jl)
 
 </div>
