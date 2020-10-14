@@ -4,9 +4,8 @@
 
 [![Stable Docs](https://img.shields.io/badge/docs-stable-blue.svg?style=flat-square)](https://bhgomes.github.io/SubTypes.jl/stable)
 [![Latest Docs](https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square)](https://bhgomes.github.io/SubTypes.jl/latest)
-[![Travis Build Status](https://img.shields.io/travis/bhgomes/SubTypes.jl.svg?style=flat-square)](https://travis-ci.com/bhgomes/SubTypes.jl)
-[![Build status](https://img.shields.io/appveyor/ci/bhgomes/subtypes-jl?style=flat-square)](https://ci.appveyor.com/project/bhgomes/subtypes-jl)
-[![Coveralls github](https://img.shields.io/coveralls/github/bhgomes/SubTypes.jl?style=flat-square)](https://coveralls.io/github/bhgomes/SubTypes.jl})
+[![Travis Build Status](https://img.shields.io/travis/com/bhgomes/SubTypes.jl?style=flat-square)](https://travis-ci.com/bhgomes/SubTypes.jl)
+[![Appveyor Build status](https://img.shields.io/appveyor/ci/bhgomes/subtypes-jl?style=flat-square)](https://ci.appveyor.com/project/bhgomes/subtypes-jl)
 [![Formatting](https://img.shields.io/badge/format-tab%204%20margin%2096-888?style=flat-square)](https://github.com/domluna/JuliaFormatter.jl)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3525301.svg)](https://doi.org/10.5281/zenodo.3525301)
